@@ -145,6 +145,10 @@ nav.scrolled {
     flex-wrap: wrap;
 }
 
+.hero-buttons svg {
+    color: #25D366;
+}
+
 .btn {
     padding: 15px 30px;
     border-radius: 8px;
@@ -159,26 +163,27 @@ nav.scrolled {
 }
 
 .btn-primary {
-    background: var(--primary);
-    color: var(--bg-dark);
-}
-
-.btn-primary:hover {
-    background: var(--primary-hover);
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(202, 255, 4, 0.2);
-}
-
-.btn-secondary {
     background: transparent;
     color: var(--text-white);
     border: 1px solid var(--glass-border);
     backdrop-filter: blur(10px);
 }
 
+.btn-primary:hover {
+    background: var(--text-white);
+    color: #000;
+    transform: translateY(-3px);
+}
+
+.btn-secondary {
+    background: var(--primary);
+    color: var(--bg-dark);
+}
+
 .btn-secondary:hover {
     background: rgba(255, 255, 255, 0.1);
     transform: translateY(-3px);
+    color: var(--text-white);
 }
 
 .hero-widget {
