@@ -356,6 +356,10 @@ nav.scrolled {
     fill: currentColor;
 }
 
+.stars svg {
+    fill: currentColor;
+}
+
 .review-card p {
     color: var(--text-gray);
     line-height: 1.7;
