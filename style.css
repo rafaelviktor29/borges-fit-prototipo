@@ -509,7 +509,7 @@ footer {
     right: 30px;
     width: 60px;
     height: 60px;
-    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: #25D366;
     color: white;
     border-radius: 50%;
     display: flex;
@@ -526,18 +526,19 @@ footer {
 }
 .floating-btn:hover {
     transform: scale(1.1) translateY(-5px);
-    box-shadow: 0 8px 25px rgba(220, 39, 67, 0.4);
+    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
+    background: #20b858;
     animation: none;
 }
 
 @keyframes pulse {
     0% {
-        box-shadow: 0 0 0 0 rgba(220, 39, 67, 0.4);
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4);
     }
     70% {
-        box-shadow: 0 0 0 15px rgba(220, 39, 67, 0);
+        box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
     }
     100% {
-        box-shadow: 0 0 0 0 rgba(220, 39, 67, 0);
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
     }
 }
